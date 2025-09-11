@@ -1,3 +1,7 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
 .TituloMain{
 color:aqua
 }
@@ -198,4 +202,22 @@ height: 50px;
     padding: 12px;
     font-size: 15px;
     text-decoration: none;
+}
+.Navegador a:hover{
+    color: black;
+    font-size: 20px;
+    background-color: blanchedalmond;
+}
+.contenido{
+    width: 80%;
+    height: 80%;
+    background-color: bisque;
+    border: solid 2px black;
+}
+.contenido .Izquierda{
+    height: 80%;
+    width: 60%;
+    background-color: brown;
+    border: solid 2px black;
+
 }
