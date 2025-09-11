@@ -184,3 +184,18 @@ div{
 .MainLogin.div{
     text-align: center;
 }
+.Navegador{ 
+background-color: blanchedalmond;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+height: 50px;
+}
+.Navegador a{
+    color: blue;
+    flex: 1 1 auto;
+    min-width: 100px;
+    padding: 12px;
+    font-size: 15px;
+    text-decoration: none;
+}
