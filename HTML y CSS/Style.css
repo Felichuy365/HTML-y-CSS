@@ -209,15 +209,31 @@ height: 50px;
     background-color: blanchedalmond;
 }
 .contenido{
-    width: 80%;
-    height: 80%;
+    display: flex;
+    width: 99%;
+    height: 95%;
     background-color: bisque;
     border: solid 2px black;
+    justify-content: space-around;
 }
 .contenido .Izquierda{
-    height: 80%;
-    width: 60%;
-    background-color: brown;
-    border: solid 2px black;
-
+    flex: 0 0 70%;
+    width: 70%;
+    border: 1px solid black
 }
+
+.Der{
+    width: 30%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.caja{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+.ImagenIZQ{
+    width: 150px;
+}<
