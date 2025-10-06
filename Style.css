@@ -1,0 +1,240 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.TituloMain{
+color:aqua
+}
+div{
+    border: 3px black;
+    padding: 0;
+    margin: 0px;
+}
+.cont{
+    background-color: black;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    position: relative;
+}
+.cont div{
+    text-align: center;
+}
+.Prueba{
+    width: 100%;
+    background-color: rgb(181, 152, 144);
+    height: 50px;
+}
+.red{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 20px;
+    border: 3px solid gold;
+    bottom: 50px;
+    left: 0px;
+}
+.blue{
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 190px;
+    bottom: 50px;
+    border: 3px solid gold;
+}
+.green{
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    left: 90px;
+    bottom: 50px;
+    border: 3px solid gold;
+    position: absolute;
+    border-radius: 50px;
+}
+
+.Main{
+    background-color: blue;
+    margin-top: 0;
+    margin-right: 0;
+    width: 50%;
+    height: 500px;
+    justify-content: space-between;
+    position: relative;
+}
+.pt1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.pt1_2{
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    position: inherit;
+}
+.pt1_3{
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    position: inherit;
+}
+.pt2{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+.pt2_2{
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    position: inherit;
+}
+.pt2_3{
+    background-color: aquamarine;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    position: inherit;
+}
+.pt3{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+}
+.pt3_2{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    position: inherit;
+}
+.pt3_3{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    position: inherit;
+}
+.pt4{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+.pt4_2{
+    background-color: violet;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    position: inherit;
+}
+.pt4_3{
+    background-color: violet;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    position: inherit;
+}
+.Login{
+    background-color: beige;
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    border-radius: 30px;
+    border: 3px solid rgb(140, 255, 0);
+}
+.User{
+    left: 50px;
+    top: 50px;
+    position: inherit;
+}
+.Password{
+    left: 50px;
+    top: 150px;
+    position: inherit;
+}
+.bottom{
+    left: 100px;
+    bottom: 25px;
+    position: inherit;
+}
+.MainLogin.div{
+    text-align: center;
+    background-color: beige;
+}
+.Navegador{ 
+background-color: blanchedalmond;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+height: 50px;
+}
+.Navegador a{
+    color: blue;
+    flex: 1 1 auto;
+    min-width: 100px;
+    padding: 12px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.Navegador a:hover{
+    color: black;
+    font-size: 20px;
+    background-color: blanchedalmond;
+}
+.contenido{
+    display: flex;
+    width: 99%;
+    height: 95%;
+    background-color: bisque;
+    border: solid 2px black;
+    justify-content: space-around;
+}
+.contenido .Izquierda{
+    flex: 0 0 70%;
+    width: 0%;
+    border: 1px solid black
+}
+
+.Der{
+    width: 30%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.caja{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+.ImagenIZQ{
+    width: 800px;
+}
